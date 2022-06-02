@@ -1,0 +1,25 @@
+{
+  "name": "@vitest/example-test",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "@vitest/ui": "latest",
+    "@vue/compiler-sfc": "^3.2.36",
+    "@vue/test-utils": "^2.0.0",
+    "jsdom": "^19.0.0",
+    "vite": "^2.9.9",
+    "vitest": "latest",
+    "vue": "latest"
+  },
+  "stackblitz": {
+    "startCommand": "npm run test:ui"
+  }
+}
